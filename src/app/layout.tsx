@@ -25,10 +25,8 @@ export default function RootLayout({
   return (
     <ClerkProvider>
       <html lang="en">
-        <body className="bg-gray-50">
-          <SignedIn>
-      <Header />
-          </SignedIn>
+        <body className="bg-white">
+          <Header />
           <main className="flex min-h-screen flex-col items-center justify-between p-24">
             <div>
               <SignedOut>
